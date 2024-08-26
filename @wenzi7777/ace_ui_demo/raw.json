@@ -1,0 +1,29 @@
+{
+    "self": "(()=>{\"use strict\";(async(e,t,i,h)=>{e.receiveHandler({manifest:h,callback:l=>{let s=l.handler,r=[{type:\"sizer\",styleObject:{display:\"flex\",flexWrap:\"wrap\",justifyContent:\"center\",alignItems:\"center\",gap:\"1vw\"},children:[{type:\"sizer\",size:{width:20,height:10},children:[{type:\"audio\",src:\"\"}]},{type:\"sizer\",size:{width:10,height:3},children:[{type:\"button\",text:\"按钮\",actions:[()=>t({text:\"按钮被点击了！\"})]}]},{type:\"sizer\",size:{width:10,height:3},children:[{type:\"checkbox\",label:\"选择框\",checked:!0,onChange:e=>t({text:`选择框状态：${e}`})}]},{type:\"sizer\",size:{width:10,height:3},children:[{type:\"colorPicker\",label:\"颜色选择器\",color:\"#39c5bb\",onChange:e=>t({text:`新颜色选择器状态：${e}`})}]},{type:\"sizer\",size:{width:10,height:10},children:[{type:\"image\",src:\"\",alt:\"图片\",asHTML:!1}]},{type:\"sizer\",size:{width:10,height:3},children:[{type:\"input\",label:\"输入框\",value:\"在此输入内容\",onChange:e=>i.info({message:\"新输入框状态：\"+e})}]},{type:\"sizer\",size:{width:10,height:3},children:[{type:\"link\",label:\"ACE V2 官方网站\",href:\"https://acev2.1205.moe\",manifest:h}]},{type:\"sizer\",size:{width:20,height:10},children:[{type:\"pagination\",currentPage:1,totalPages:16,onPageChange:e=>t({text:\"New page: \"+e})}]},{type:\"sizer\",size:{width:10,height:3},children:[{type:\"range\",label:\"范围输入器\",value:39,min:0,max:100,onChange:e=>i.info({message:\"New range: \"+e})}]},{type:\"sizer\",size:{width:10,height:3},children:[{type:\"select\",label:\"选择器\",options:[\"Hello\",\"AcFun\",\"Evolved\",\"V2\"],value:\"Hello\",onChange:e=>t({text:\"New select: \"+e})}]},{type:\"sizer\",size:{width:20,height:10},children:[{type:\"text\",label:\"副文本\",text:\"文本\"}]},{type:\"sizer\",size:{width:20,height:10},children:[{type:\"video\",src:\"\"}]},{type:\"sizer\",size:{width:20,height:10},children:[{type:\"window\",title:\"这是视窗组件。\",children:[{type:\"text\",label:\"我是在视窗里的文本。\"}]}]},{type:\"sizer\",size:{width:20,height:10},children:[{type:\"sizer\",filled:!0,children:[{type:\"text\",label:\"这是填充式Sizer，也可以作为一种视窗使用。\"}]}]},{type:\"sizer\",size:{width:20,height:10},children:[{type:\"sizer\",draggable:!0,filled:!0,styleObject:{position:\"absolute\"},children:[{type:\"text\",label:\"这是可拖拽填充式Sizer。\"}]}]}]}];e.renderUI({canvas:r,slot:s})}})})(UIKit,showToast,ACEV2Log,manifest,getSelfPreference)})();",
+    "signature": "AcFunEvolvedPluginPackageSignature|NickHsuSigned|1724687621429|RSA-SHA256|9dc5ac15ea3efae1e8e0de9dadf2ec00f1bdc2ea17080ed8b5ef9d3b1a51cf68|*ACE*|bra1eJ50tjxWPpRmylmpND4XCtBN5HI391amcySGG5x0kc2ETHR9an/0mNH0ZE6rLmaI3LBWxjry2pSZIQGSk/odylfDKQ+2u9c0zhD9IUfGik+DSZVJ2LPBZ/lfjUb31p19+uFHlfJ+WA+g17MavaLPOU4Zowbpgnautgic3QnfyWftVXrYS5kiVEgSKe1FMkK1LNYPg6MGGblSQaKvzdNYih1K2mQHHQi99cbtyftz78cSUmKkhVtAdWFdFX5uS0/pLG4jgrdLL7XrEfqpdC78pmY+h+7RLr8I9Fc6Yh+CTouicl8SA9dUj/Ck6YSqR+dQ2imcTxrJYk7dgR6lqVcxZRoJ/F/Hc7bOalLKZ0Az0LWr4OQoaIO49kWXtcz822Zhy/g+/kD/ey2l7tfVkrdb3HJHxIiEPK7gMc73BioEA3dpmv7juwtimCQfFz9t9wgh706uQ0onbeV563qeS0uKx0/NwJslBtkwJIXKTtN1CZ/sIiophGynAphiGJ839hVyXoZpf0hP0euxdQuZHvdH5U35nfUQCDU/ZjiVboQBQf2v4yLpF0+yTbVT6vHL9zHlM+BJOoksxZf44ujFVjU9enH310x0Baxyvb5kN9FAdBmL+DTjL1SBhC90SVogjOPGwFbhrTbHxlRxGu4jhsxuXRY2Dm2yqZrS6JxVqNU=",
+    "manifest": {
+        "icon": "<svg t=\"1724510847535\" class=\"icon\" viewBox=\"0 0 1024 1024\" version=\"1.1\" xmlns=\"http://www.w3.org/2000/svg\" p-id=\"7055\" width=\"96\" height=\"96\"><path d=\"M489.6 336H96c-19.2 0-32-12.8-32-32v-192c0-19.2 12.8-32 32-32h390.4c19.2 0 32 12.8 32 32v192c3.2 19.2-12.8 32-28.8 32zM128 272h326.4v-128H128v128zM489.6 624H96c-19.2 0-32-12.8-32-32v-192c0-19.2 12.8-32 32-32h390.4c19.2 0 32 12.8 32 32v192c3.2 19.2-12.8 32-28.8 32zM128 560h326.4v-128H128v128zM928 944H96c-19.2 0-32-12.8-32-32v-224c0-19.2 12.8-32 32-32h832c19.2 0 32 12.8 32 32v224c0 16-12.8 32-32 32z m-800-64h768v-160H128v160zM928 624H588.8c-19.2 0-32-12.8-32-32v-480c0-19.2 12.8-32 32-32H928c19.2 0 32 12.8 32 32v480c0 19.2-12.8 32-32 32z m-307.2-64H896v-416h-275.2v416z\" fill=\"#2c2c2c\" p-id=\"7056\" data-spm-anchor-id=\"a313x.search_index.0.i0.5da63a81xe8UEw\" class=\"selected\"></path></svg>",
+        "name": "AcFun Evolved UI DEMO",
+        "id": "@wenzi7777/ace_ui_demo",
+        "versions": [
+            "0.0.1"
+        ],
+        "description": "这是AcFun Evolved Runtime V2.0.0+ 的示例UI插件。",
+        "createdAt": "1724457600000",
+        "updatedAt": "1724687621400",
+        "author": "wenzi7777",
+        "copyright": "(c)2024 wenzi7777, licensed under the MIT License.",
+        "requestedAPIs": [
+            "UIKit",
+            "showToast",
+            "ACEV2Log"
+        ],
+        "website": "https://acev2.test.plugin/",
+        "trigger": {
+            "receiveHandler": true,
+            "matches": [
+                "*"
+            ]
+        }
+    }
+}
